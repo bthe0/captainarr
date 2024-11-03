@@ -233,7 +233,6 @@ graph TD
     A --> E[Support Services]
 
     B --> B1[Plex]
-    B --> B2[Jellyfin]
 
     C --> C1[Sonarr]
     C --> C2[Radarr]
