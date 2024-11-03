@@ -1,0 +1,55 @@
+Nov 03, 2024 12:24:56.037 [281473707965944] INFO - Plex Media Scanner v1.41.1.9057-af5eaea7a - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 03, 2024 12:24:56.037 [281473707965944] INFO - Linux version: 6.10.11-linuxkit, language: en-US
+Nov 03, 2024 12:24:56.037 [281473707965944] INFO - Processor: 10-core AArch64
+Nov 03, 2024 12:24:56.038 [281473707965944] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 1
+Nov 03, 2024 12:24:56.037 [281473753219128] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 03, 2024 12:24:56.042 [281473753219128] INFO - SQLITE3:0xffffb71234c0, 283, recovered 857 frames from WAL file /config/Library/Application Support/Plex Media Server/Plug-in Support/Databases/com.plexapp.plugins.library.db-wal
+Nov 03, 2024 12:24:56.100 [281473753219128] DEBUG - Analyzing media parts for item 1 (A Quiet Place: Day One): 1
+Nov 03, 2024 12:24:56.100 [281473753219128] DEBUG - [ID 1] Media part analysis: /movies/A Quiet Place - Day One (2024)/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx].mkv
+Nov 03, 2024 12:24:56.102 [281473753219128] DEBUG - [MI] Opening input file: "/movies/A Quiet Place - Day One (2024)/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx].mkv"
+Nov 03, 2024 12:24:56.102 [281473753219128] DEBUG - [FFMPEG] - Opening '/movies/A Quiet Place - Day One (2024)/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx].mkv' for reading
+Nov 03, 2024 12:24:56.102 [281473753219128] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 03, 2024 12:24:56.104 [281473753219128] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 03, 2024 12:24:56.104 [281473753219128] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 03, 2024 12:24:56.104 [281473753219128] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 03, 2024 12:24:56.104 [281473753219128] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Nov 03, 2024 12:24:56.104 [281473753219128] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Nov 03, 2024 12:24:56.104 [281473753219128] INFO - CodecManager: obtaining decoder 'h264'
+Nov 03, 2024 12:24:56.104 [281473753219128] DEBUG - [HCl#1] HTTP requesting GET https://plex.tv/api/codecs/h264_decoder?build=linux-aarch64-standard&deviceId=54268e93-9e59-4bfa-ae9e-51817d21b58e&oldestPreviousVersion=1%2E41%2E1%2E9057-af5eaea7a&version=7592546-570471557d92948f58893deb
+Nov 03, 2024 12:24:56.377 [281473663577592] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.3s) 200 response from GET https://plex.tv/api/codecs/h264_decoder?build=linux-aarch64-standard&deviceId=54268e93-9e59-4bfa-ae9e-51817d21b58e&oldestPreviousVersion=1%2E41%2E1%2E9057-af5eaea7a&version=7592546-570471557d92948f58893deb
+Nov 03, 2024 12:24:56.379 [281473662090744] DEBUG - [GetFile/HCl#2] HTTP requesting GET https://downloads.plex.tv/codecs/7592546-570471557d92948f58893deb/linux-aarch64-standard/libh264_decoder.so
+Nov 03, 2024 12:24:56.527 [281473663577592] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.1s) 200 response from GET https://downloads.plex.tv/codecs/7592546-570471557d92948f58893deb/linux-aarch64-standard/libh264_decoder.so
+Nov 03, 2024 12:24:56.533 [281473753219128] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1444 bytes read:32768 seeks:0 nb_streams:4
+Nov 03, 2024 12:24:56.536 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 03, 2024 12:24:56.536 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 03, 2024 12:24:56.536 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Nov 03, 2024 12:24:56.536 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Nov 03, 2024 12:24:56.536 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Nov 03, 2024 12:24:56.536 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Nov 03, 2024 12:24:56.536 [281473753219128] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 03, 2024 12:24:56.537 [281473753219128] DEBUG - [FFMPEG] - no picture 
+Nov 03, 2024 12:24:56.538 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 03, 2024 12:24:56.539 [281473753219128] DEBUG - [FFMPEG] - no picture 
+Nov 03, 2024 12:24:56.539 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 03, 2024 12:24:56.540 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 03, 2024 12:24:56.541 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 03, 2024 12:24:56.542 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 03, 2024 12:24:56.542 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Nov 03, 2024 12:24:56.543 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 03, 2024 12:24:56.543 [281473753219128] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Nov 03, 2024 12:24:56.544 [281473753219128] DEBUG - [FFMPEG] - All info found
+Nov 03, 2024 12:24:56.544 [281473753219128] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 6915 bytes read:32768 seeks:0 frames:26
+Nov 03, 2024 12:24:56.548 [281473753219128] DEBUG - [MI]  * abd96ad1cb4df385a2003efbf8110a010680388c [mkv h264/aac] Duration: 5965643ms, 1280x532 (2.404523) 23.976fps, bitrate=1120kbps, audio channels=2, optimizedForStreaming=0 ("/movies/A Quiet Place - Day One (2024)/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx].mkv")
+Nov 03, 2024 12:24:56.548 [281473753219128] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 03, 2024 12:24:56.548 [281473753219128] DEBUG - [MI] Closing input file: "/movies/A Quiet Place - Day One (2024)/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx].mkv"
+Nov 03, 2024 12:24:56.548 [281473753219128] DEBUG - Committing media stream changes for part 1
+Nov 03, 2024 12:24:56.550 [281473753219128] DEBUG - Updating media item 1, size=835834315, metadata_item_id=1
+Nov 03, 2024 12:24:56.550 [281473753219128] DEBUG - Updating part with ID=1 [/movies/A Quiet Place - Day One (2024)/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx].mkv]
+Nov 03, 2024 12:24:56.554 [281473660173816] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 03, 2024 12:24:56.554 [281473753219128] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 03, 2024 12:24:56.554 [281473753219128] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 03, 2024 12:24:56.555 [281473663577592] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 03, 2024 12:24:56.555 [281473660173816] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 03, 2024 12:24:56.555 [281473663577592] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Nov 03, 2024 12:24:56.555 [281473663577592] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 03, 2024 12:24:56.555 [281473753219128] DEBUG - Updating metadata item (save) (A Quiet Place: Day One) with ID 1

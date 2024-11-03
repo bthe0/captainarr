@@ -1,0 +1,19 @@
+{
+  "downloadClientConfigs": [
+    {
+      "enable": true,
+      "protocol": "torrent",
+      "priority": 1,
+      "name": "qBittorrent",
+      "implementation": "QBittorrent",
+      "configContract": "QBittorrentSettings",
+      "host": "qbittorrent",
+      "port": 8080,
+      "username": "admin",
+      "password": "adminadmin",
+      "category": "movies-radarr",
+      "removeCompletedDownloads": false,
+      "removeFailedDownloads": true
+    }
+  ]
+}

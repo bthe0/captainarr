@@ -1,0 +1,55 @@
+2024-11-03 11:40:22,802 (ffffa565c890) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: af5eaea (Fri Sep 27 16:40:55 UTC 2024)
+2024-11-03 11:40:22,802 (ffffa565c890) :  DEBUG (core:361) - Using the elevated policy
+2024-11-03 11:40:22,803 (ffffa565c890) :  DEBUG (core:450) - Starting runtime component.
+2024-11-03 11:40:22,804 (ffffa565c890) :  DEBUG (core:450) - Starting caching component.
+2024-11-03 11:40:22,805 (ffffa565c890) :  DEBUG (core:450) - Starting data component.
+2024-11-03 11:40:22,805 (ffffa565c890) :  DEBUG (core:450) - Starting networking component.
+2024-11-03 11:40:22,805 (ffffa565c890) :  DEBUG (networking:266) - No cookie jar found
+2024-11-03 11:40:22,809 (ffffa565c890) :  DEBUG (networking:434) - Setting the default network timeout to 20.0
+2024-11-03 11:40:22,810 (ffffa565c890) :  DEBUG (core:450) - Starting localization component.
+2024-11-03 11:40:22,810 (ffffa565c890) :  INFO (localization:409) - Setting the default locale to en-us
+2024-11-03 11:40:22,810 (ffffa565c890) :  DEBUG (core:450) - Starting messaging component.
+2024-11-03 11:40:22,811 (ffffa565c890) :  DEBUG (core:450) - Starting debugging component.
+2024-11-03 11:40:22,811 (ffffa565c890) :  DEBUG (core:450) - Starting services component.
+2024-11-03 11:40:22,811 (ffffa565c890) :  DEBUG (core:450) - Starting myplex component.
+2024-11-03 11:40:22,812 (ffffa21d0b08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.lyricfind'
+2024-11-03 11:40:22,812 (ffffa565c890) :  DEBUG (core:450) - Starting notifications component.
+2024-11-03 11:40:22,867 (ffffa565c890) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.lyricfind in namespace 'metadata'
+2024-11-03 11:40:22,872 (ffffa565c890) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2024-11-03 11:40:22,876 (ffffa565c890) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2024-11-03 11:40:22,878 (ffffa565c890) :  CRITICAL (runtime:1299) - Exception getting hosted resource hashes (most recent call last):
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 1293, in get_resource_hashes
+    json = self._core.networking.http_request("http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes", timeout=10).content
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 243, in content
+    return self.__str__()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 221, in __str__
+    self.load()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 159, in load
+    f = self._opener.open(req, timeout=self._timeout)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 435, in open
+    response = meth(req, response)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 548, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 473, in error
+    return self._call_chain(*args)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 556, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 404: Not Found
+
+2024-11-03 11:40:22,881 (ffffa1f9cb08) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2024-11-03 11:40:22,881 (ffffa565c890) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2024-11-03 11:40:22,883 (ffffa565c890) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2024-11-03 11:40:22,883 (ffffa1f9cb08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2024-11-03 11:40:22,885 (ffffa1f56b08) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400'
+2024-11-03 11:40:22,887 (ffffa565c890) :  DEBUG (core:150) - Finished starting framework core
+2024-11-03 11:40:22,887 (ffffa565c890) :  DEBUG (core:560) - Loading plug-in code
+2024-11-03 11:40:22,893 (ffffa1f56b08) :  DEBUG (core:538) - Machine identifier is 7eddf88e82e335a5d699f4d05742f9d9b9aaf4ba
+2024-11-03 11:40:22,895 (ffffa1f9cb08) :  DEBUG (services:362) - Loaded services
+2024-11-03 11:40:22,895 (ffffa1f56b08) :  DEBUG (core:539) - Server version is 1.41.1.9057-af5eaea7a
+2024-11-03 11:40:22,903 (ffffa1f79b08) :  DEBUG (services:438) - No shared code to load
+2024-11-03 11:40:22,909 (ffffa565c890) :  DEBUG (core:566) - Finished loading plug-in code
+2024-11-03 11:40:22,910 (ffffa565c890) :  DEBUG (agentkit:1132) - Creating new agent class called LyricFindAlbumAgent
+2024-11-03 11:40:22,910 (ffffa565c890) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['Album'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.lastfm', 'tv.plex.agents.music', 'org.musicbrainz.agents.music'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': False, 'name': 'LyricFind'}]
+2024-11-03 11:40:22,912 (ffffa565c890) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczI4CmNvbS5wbGV4YXBwLmFnZW50cy5seXJpY2ZpbmRzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNuczEyCmFjY2VwdHNfZnJvbW5zMTQKZmFsbGJhY2tfYWdlbnRyNApzMTQKY29udHJpYnV0ZXNfdG9yNQpzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMHMxNgpwcmltYXJ5X3Byb3ZpZGVyYjBzNQpwcmVmc3M5Ckx5cmljRmluZHM0Cm5hbWUxCnM1CkFsYnVtMwpzMjUKY29tLnBsZXhhcHAuYWdlbnRzLmxhc3RmbXMyMAp0di5wbGV4LmFnZW50cy5tdXNpY3MyOApvcmcubXVzaWNicmFpbnouYWdlbnRzLm11c2ljMQpzMgp4bnIwCg__'

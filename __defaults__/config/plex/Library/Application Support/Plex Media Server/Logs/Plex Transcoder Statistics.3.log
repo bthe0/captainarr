@@ -1,0 +1,120 @@
+<SessionReport version="2" startTime="0" startTimestamp="Nov 03, 2024 12:26:45.019" key="/library/metadata/9" session="fc6p5wx8iktqgxmqkg5mtk3c" transcode="4ppilcjgvu6b72i6kjg8d8xu">
+<User id="1" thumb="https://plex.tv/users/80cf29d59098fc92/avatar?c=1730636206" title="th8400" />
+<Player address="172.18.0.1" device="OSX" machineIdentifier="8j0wskgjhx92sm8pzabz9nrd" model="bundled" platform="Chrome" platformVersion="130.0" product="Plex Web" remotePublicAddress="86.120.223.157" title="Chrome" version="4.138.0" local="1" relayed="0" secure="0" userID="1" />
+<Variants>
+<Variant id="5a3c2744-06ae-4169-aa04-c773b87fd03e" targetBitrate="10000000" context="streaming" sourceVideoCodec="h264" sourceAudioCodec="aac" videoDecision="copy" audioDecision="copy" protocol="dash" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media audioProfile="lc" id="23" videoProfile="high" audioChannels="2" audioCodec="aac" bitrate="1121" container="mp4" duration="5965643" height="532" optimizedForStreaming="1" protocol="dash" videoCodec="h264" videoFrameRate="24p" videoResolution="720p" width="1280" selected="1">
+<Part audioProfile="lc" id="23" videoProfile="high" bitrate="1121" container="mp4" duration="5965643" height="532" optimizedForStreaming="1" protocol="dash" width="1280" decision="transcode" selected="1">
+<Stream anamorphic="0" bitDepth="8" bitrate="1121" chromaLocation="topleft" chromaSubsampling="4:2:0" codec="h264" codedHeight="544" codedWidth="1280" colorPrimaries="bt709" colorRange="tv" colorSpace="bt709" colorTrc="bt709" default="1" displayTitle="720p" extendedDisplayTitle="GalaxyRG - A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG (720p H.264)" frameRate="23.975999832153320" hasScalingMatrix="0" height="532" id="47" language="English" languageCode="eng" languageTag="en" level="31" pixelAspectRatio="127281:127360" profile="high" refFrames="4" scanType="progressive" streamType="1" title="GalaxyRG - A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG" width="1280" decision="copy" location="segments-video" />
+<Stream bitrateMode="cbr" channels="2" codec="aac" default="1" displayTitle="English (AAC Stereo)" extendedDisplayTitle="GalaxyRG - A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG (English AAC Stereo)" id="48" language="English" languageCode="eng" languageTag="en" profile="lc" samplingRate="48000" selected="1" streamType="2" title="GalaxyRG - A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG" decision="copy" location="segments-audio" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList>
+<Segment duration="6965" startOffset="43" endOffset="7008">
+<File name="chunk-stream0-00001.m4s" type="video">
+<FileVariant size="962842" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<File name="chunk-stream1-00001.m4s" type="audio">
+<FileVariant size="86333" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<Timelines>
+<Transcode startTime="28" endTime="36" complete="1" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+<Transcode startTime="28" endTime="36" complete="1" fileType="audio" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+<Segment duration="10427" startOffset="7008" endOffset="17435">
+<File name="chunk-stream0-00002.m4s" type="video">
+<FileVariant size="2797996" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<File name="chunk-stream1-00002.m4s" type="audio">
+<FileVariant size="129424" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<Timelines>
+<Transcode startTime="36" endTime="46" complete="1" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+<Transcode startTime="36" endTime="46" complete="1" fileType="audio" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+<Segment duration="5881" startOffset="17435" endOffset="23316">
+<File name="chunk-stream0-00003.m4s" type="video">
+<FileVariant size="544195" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<File name="chunk-stream1-00003.m4s" type="audio">
+<FileVariant size="73190" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<Timelines>
+<Transcode startTime="46" endTime="50" complete="1" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+<Transcode startTime="46" endTime="50" complete="1" fileType="audio" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+<Segment duration="10426" startOffset="23316" endOffset="33742">
+<File name="chunk-stream0-00004.m4s" type="video">
+<FileVariant size="1563743" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<File name="chunk-stream1-00004.m4s" type="audio">
+<FileVariant size="129125" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<Timelines>
+<Transcode startTime="50" endTime="59" complete="1" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+<Transcode startTime="50" endTime="59" complete="1" fileType="audio" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+<Segment duration="1542" startOffset="33742" endOffset="35285">
+<File name="chunk-stream0-00005.m4s" type="video">
+<FileVariant size="41215" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<File name="chunk-stream1-00005.m4s" type="audio">
+<FileVariant size="19377" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<Timelines>
+<Transcode startTime="59" endTime="62" complete="1" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+<Transcode startTime="59" endTime="62" complete="1" fileType="audio" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+<Segment duration="8341" startOffset="35285" endOffset="43627">
+<File name="chunk-stream0-00006.m4s" type="video">
+<FileVariant size="412179" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<File name="chunk-stream1-00006.m4s" type="audio">
+<FileVariant size="103393" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<Timelines>
+<Transcode startTime="62" endTime="67" complete="1" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+<Transcode startTime="62" endTime="67" complete="1" fileType="audio" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+<Segment duration="4920" startOffset="43627" endOffset="48548">
+<File name="chunk-stream0-00007.m4s" type="video">
+<FileVariant size="10657" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<File name="chunk-stream1-00007.m4s" type="audio">
+<FileVariant size="60873" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<Timelines>
+<Transcode startTime="67" endTime="70" complete="1" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+<Transcode startTime="67" endTime="70" complete="1" fileType="audio" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+<Segment duration="10427" startOffset="48548" endOffset="58975">
+<File name="chunk-stream0-00008.m4s" type="video">
+<FileVariant size="1389869" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<File name="chunk-stream1-00008.m4s" type="audio">
+<FileVariant size="129383" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</File>
+<Timelines>
+<Transcode startTime="70" endTime="79" complete="1" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+<Transcode startTime="70" endTime="79" complete="1" fileType="audio" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="-1" endOffset="-1">
+<Timelines>
+<Download startTime="87" fileType="video" variant="5a3c2744-06ae-4169-aa04-c773b87fd03e" />
+</Timelines>
+</Segment>
+</SegmentList>
+<PlaybackReports />
+<StateReports />
+<StateReports />
+</SessionReport>

@@ -1,0 +1,19 @@
+{
+  "autoUnmonitorPreviouslyDownloadedEpisodes": false,
+  "recycleBin": "",
+  "recycleBinCleanupDays": 7,
+  "downloadPropersAndRepacks": "preferAndUpgrade",
+  "createEmptySeriesFolders": false,
+  "deleteEmptyFolders": true,
+  "fileDate": "none",
+  "rescanAfterRefresh": "always",
+  "setPermissionsLinux": true,
+  "chmodFolder": "755",
+  "skipFreeSpaceCheckWhenImporting": false,
+  "minimumFreeSpaceWhenImporting": 100,
+  "copyUsingHardlinks": true,
+  "importExtraFiles": true,
+  "extraFileExtensions": "srt,sub,idx,nfo",
+  "enableMediaInfo": true,
+  "defaultRootFolderPath": "/tv"
+}

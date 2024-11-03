@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "text": "Welcome to the new announcement section. It will keep you up-to-date with important news. You can dismiss this announcement by clicking on the button at the end of this line.",
+      "link": "",
+      "hash": "",
+      "dismissible": true,
+      "timestamp": 1676235999,
+      "enabled": true
+    },
+    {
+      "text": "Opensubtitles.org is now only accessible to VIP users. If you're still using it and do not plan to get a VIP subscription, you should consider disabling it and move to opensubtitles.com.",
+      "link": "",
+      "hash": "",
+      "dismissible": true,
+      "timestamp": 1700791126,
+      "enabled": true
+    }
+  ]
+}

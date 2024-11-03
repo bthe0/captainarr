@@ -1,0 +1,50 @@
+[2024-11-03 11:40:15,787]  WARN {cps.config_sql:384} Log path /config/calibre-web.log not valid, falling back to default
+[2024-11-03 11:40:15,832]  WARN {cps.config_sql:384} Log path  not valid, falling back to default
+[2024-11-03 11:40:15,848]  WARN {cps.config_sql:420} invalidating configuration
+[2024-11-03 11:40:15,849]  WARN {cps.config_sql:384} Log path  not valid, falling back to default
+[2024-11-03 11:40:15,890]  INFO {cps:175} Starting Calibre Web...
+[2024-11-03 11:40:16,273]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/flask_limiter/extension.py:333: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2024-11-03 11:40:16,534]  INFO {apscheduler.scheduler:181} Scheduler started
+[2024-11-03 11:40:16,535]  INFO {apscheduler.scheduler:895} Added job "delete temp" to job store "default"
+[2024-11-03 11:40:16,536]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2024-11-03 11:40:16,537]  INFO {apscheduler.scheduler:895} Added job "immediately delete temp" to job store "default"
+[2024-11-03 11:40:16,537]  INFO {apscheduler.executors.default:123} Running job "immediately delete temp (trigger: date[2024-11-03 11:40:16 UTC], next run at: 2024-11-03 11:40:16 UTC)" (scheduled at 2024-11-03 11:40:16.536899+00:00)
+[2024-11-03 11:40:16,538]  INFO {apscheduler.scheduler:641} Removed job c772e7132b1c4124a0c0a2b598d18a42
+[2024-11-03 11:40:16,557]  INFO {apscheduler.executors.default:144} Job "immediately delete temp (trigger: date[2024-11-03 11:40:16 UTC], next run at: 2024-11-03 11:40:16 UTC)" executed successfully
+[2024-11-03 11:40:16,665]  INFO {cps.ub:765} github Blueprint Created
+[2024-11-03 11:40:16,673]  INFO {cps.ub:765} google Blueprint Created
+[2024-11-03 11:40:16,940]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from this module in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+
+[2024-11-03 11:40:17,531]  INFO {cps.server:218} Starting Gevent server on [::]:8083
+[2024-11-03 11:54:56,162]  INFO {cps.server:319} webserver stop (restart=False)
+[2024-11-03 11:54:56,166]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2024-11-03 11:54:57,176]  INFO {cps.server:298} Performing shutdown of Calibre-Web
+[2024-11-03 11:56:34,119]  WARN {cps.config_sql:384} Log path  not valid, falling back to default
+[2024-11-03 11:56:34,126]  WARN {cps.config_sql:420} invalidating configuration
+[2024-11-03 11:56:34,129]  WARN {cps.config_sql:384} Log path  not valid, falling back to default
+[2024-11-03 11:56:34,209]  INFO {cps:175} Starting Calibre Web...
+[2024-11-03 11:56:34,428]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/flask_limiter/extension.py:333: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2024-11-03 11:56:35,022]  INFO {apscheduler.scheduler:181} Scheduler started
+[2024-11-03 11:56:35,026]  INFO {apscheduler.scheduler:895} Added job "delete temp" to job store "default"
+[2024-11-03 11:56:35,029]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2024-11-03 11:56:35,031]  INFO {apscheduler.scheduler:895} Added job "immediately delete temp" to job store "default"
+[2024-11-03 11:56:35,046]  INFO {apscheduler.executors.default:123} Running job "immediately delete temp (trigger: date[2024-11-03 11:56:35 UTC], next run at: 2024-11-03 11:56:35 UTC)" (scheduled at 2024-11-03 11:56:35.030650+00:00)
+[2024-11-03 11:56:35,047]  INFO {apscheduler.scheduler:641} Removed job e9b318415f84475ab9991fd17ace02ee
+[2024-11-03 11:56:35,055]  INFO {apscheduler.executors.default:144} Job "immediately delete temp (trigger: date[2024-11-03 11:56:35 UTC], next run at: 2024-11-03 11:56:35 UTC)" executed successfully
+[2024-11-03 11:56:35,926]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from this module in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+
+[2024-11-03 11:56:36,843]  INFO {cps.server:218} Starting Gevent server on [::]:8083
+[2024-11-03 11:57:21,297]  WARN {cps.web:1440} Login failed for user "admin" IP-address: 172.18.0.1
+[2024-11-03 11:57:54,390] ERROR {cps.admin:1890} DB Location is not Valid, Please Enter Correct Path
+[2024-11-03 11:57:54,391]  WARN {cps.config_sql:384} Log path  not valid, falling back to default
+[2024-11-03 11:59:14,492] ERROR {cps.admin:1890} DB Location is not Valid, Please Enter Correct Path
+[2024-11-03 11:59:14,493]  WARN {cps.config_sql:384} Log path  not valid, falling back to default
+[2024-11-03 11:59:39,759]  WARN {cps.config_sql:384} Log path  not valid, falling back to default
+[2024-11-03 11:59:39,764]  WARN {cps.config_sql:384} Log path  not valid, falling back to default
+[2024-11-03 12:01:29,921]  WARN {cps.config_sql:384} Log path  not valid, falling back to default

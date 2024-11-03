@@ -1,8 +1,14 @@
-.git
+# Version control
+.git/
 .gitignore
+
+# Environment and configs
 .env
 config/
 logs/
 backups/
+__defaults__/
+
+# Documentation and license
 *.md
 LICENSE

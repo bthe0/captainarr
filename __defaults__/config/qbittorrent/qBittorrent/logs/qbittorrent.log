@@ -1,0 +1,63 @@
+(N) 2024-11-03T11:40:13 - qBittorrent v5.0.1 started. Process ID: 179
+(N) 2024-11-03T11:40:13 - Using config directory: /config/qBittorrent
+(N) 2024-11-03T11:40:13 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2024-11-03T11:40:13 - Peer ID: "-qB5010-"
+(I) 2024-11-03T11:40:13 - HTTP User-Agent: "qBittorrent/5.0.1"
+(I) 2024-11-03T11:40:13 - Distributed Hash Table (DHT) support: ON
+(I) 2024-11-03T11:40:13 - Local Peer Discovery support: ON
+(I) 2024-11-03T11:40:13 - Peer Exchange (PeX) support: ON
+(I) 2024-11-03T11:40:13 - Anonymous mode: OFF
+(I) 2024-11-03T11:40:13 - Encryption support: ON
+(I) 2024-11-03T11:40:13 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2024-11-03T11:40:13 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2024-11-03T11:40:13 - Successfully listening on IP. IP: "172.18.0.4". Port: "TCP/6881"
+(I) 2024-11-03T11:40:13 - Successfully listening on IP. IP: "172.18.0.4". Port: "UTP/6881"
+(I) 2024-11-03T11:40:13 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2024-11-03T11:40:13 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2024-11-03T11:40:13 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2024-11-03T11:40:13 - Using built-in WebUI.
+(W) 2024-11-03T11:40:13 - Couldn't load WebUI translation for selected locale (C).
+(N) 2024-11-03T11:40:13 - WebUI: Now listening on IP: *, port: 8080
+(I) 2024-11-03T11:40:14 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Nov 1 02:25:09 2024.
+(I) 2024-11-03T11:40:14 - Successfully updated IP geolocation database.
+(N) 2024-11-03T11:41:14 - WebAPI login success. IP: ::ffff:172.18.0.13
+(N) 2024-11-03T11:46:58 - WebAPI login success. IP: ::ffff:172.18.0.9
+(N) 2024-11-03T11:50:55 - WebAPI login success. IP: ::ffff:172.18.0.6
+(N) 2024-11-03T11:53:12 - WebAPI login success. IP: ::ffff:172.18.0.5
+(N) 2024-11-03T11:54:56 - qBittorrent termination initiated
+(N) 2024-11-03T11:54:56 - Saving resume data completed.
+(N) 2024-11-03T11:54:56 - BitTorrent session successfully finished.
+(N) 2024-11-03T11:54:56 - qBittorrent is now ready to exit
+(N) 2024-11-03T11:56:32 - qBittorrent v5.0.1 started. Process ID: 175
+(N) 2024-11-03T11:56:32 - Using config directory: /config/qBittorrent
+(N) 2024-11-03T11:56:32 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2024-11-03T11:56:32 - Peer ID: "-qB5010-"
+(I) 2024-11-03T11:56:32 - HTTP User-Agent: "qBittorrent/5.0.1"
+(I) 2024-11-03T11:56:32 - Distributed Hash Table (DHT) support: ON
+(I) 2024-11-03T11:56:32 - Local Peer Discovery support: ON
+(I) 2024-11-03T11:56:32 - Peer Exchange (PeX) support: ON
+(I) 2024-11-03T11:56:32 - Anonymous mode: OFF
+(I) 2024-11-03T11:56:32 - Encryption support: ON
+(I) 2024-11-03T11:56:32 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2024-11-03T11:56:32 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2024-11-03T11:56:32 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2024-11-03T11:56:32 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2024-11-03T11:56:32 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2024-11-03T11:56:32 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2024-11-03T11:56:32 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Nov 1 02:25:09 2024.
+(N) 2024-11-03T11:56:32 - Using built-in WebUI.
+(W) 2024-11-03T11:56:32 - Couldn't load WebUI translation for selected locale (C).
+(N) 2024-11-03T11:56:32 - WebUI: Now listening on IP: *, port: 8080
+(N) 2024-11-03T11:56:36 - WebAPI login success. IP: ::ffff:172.18.0.10
+(N) 2024-11-03T11:56:36 - WebAPI login success. IP: ::ffff:172.18.0.19
+(N) 2024-11-03T11:56:36 - WebAPI login success. IP: ::ffff:172.18.0.9
+(N) 2024-11-03T11:56:36 - WebAPI login success. IP: ::ffff:172.18.0.4
+(N) 2024-11-03T12:22:39 - Added new torrent. Torrent: "Deadpool and Wolverine 2024 720p HDR10Plus DV BluRay 8CH x265 HEVC.XoXo"
+(W) 2024-11-03T12:22:39 - URL seed DNS lookup failed. Torrent: "Deadpool and Wolverine 2024 720p HDR10Plus DV BluRay 8CH x265 HEVC.XoXo". URL: "1/". Error: "Deadpool and Wolverine 2024 720p HDR10Plus DV BluRay 8CH x265 HEVC.XoXo url seed (1/) failed: unsupported URL protocol"
+(I) 2024-11-03T12:22:40 - Detected external IP. IP: "86.120.223.157"
+(N) 2024-11-03T12:23:27 - Added new torrent. Torrent: "A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx]"
+(N) 2024-11-03T12:24:28 - Torrent download finished. Torrent: "A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx]"
+(N) 2024-11-03T12:24:28 - Running external program. Torrent: "A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx]". Command: `unzip /downloads/complete/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx]-d /downloads/complete`
+(N) 2024-11-03T12:40:23 - Torrent download finished. Torrent: "Deadpool and Wolverine 2024 720p HDR10Plus DV BluRay 8CH x265 HEVC.XoXo"
+(N) 2024-11-03T12:40:23 - Running external program. Torrent: "Deadpool and Wolverine 2024 720p HDR10Plus DV BluRay 8CH x265 HEVC.XoXo". Command: `unzip /downloads/complete/Deadpool and Wolverine 2024 720p HDR10Plus DV BluRay 8CH x265 HEVC.XoXo-d /downloads/complete`
+(W) 2024-11-03T13:24:05 - File error alert. Torrent: "A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx]". File: "/downloads/complete/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx]/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG.mkv". Reason: "A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx] file_open (/downloads/complete/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx]/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG.mkv) error: No such file or directory"

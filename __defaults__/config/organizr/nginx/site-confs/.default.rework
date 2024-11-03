@@ -1,0 +1,38 @@
+# V0.0.5
+server {
+  listen 80 default_server;
+  root /config/www/organizr;
+  index index.html index.htm index.php;
+
+  server_name _;
+  client_max_body_size 0;
+
+  # Real Docker IP
+  # Make sure to update the IP range with your Docker IP subnet
+  real_ip_header X-Forwarded-For;
+  #set_real_ip_from 172.17.0.0/16;
+  real_ip_recursive on;
+
+  # Deny access to Org .git directory
+  location ~ /\.git {
+    deny all;
+  }
+
+  location / {
+    try_files $uri $uri/ /index.html /index.php?$args =404;
+  }
+
+  location /api/v2 {
+    try_files $uri /api/v2/index.php$is_args$args;
+  }
+
+  location ~ \.php$ {
+    fastcgi_split_path_info ^(.+\.php)(/.+)$;
+    fastcgi_pass unix:/var/run/php8-fpm.sock;
+    fastcgi_index index.php;
+    include /etc/nginx/fastcgi_params;
+    fastcgi_hide_header X-Powered-By;
+    fastcgi_buffers 32 32k;
+    fastcgi_buffer_size 32k;
+  }
+}

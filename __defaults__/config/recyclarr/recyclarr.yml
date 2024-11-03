@@ -1,0 +1,149 @@
+# Recyclarr Configuration File
+# Get Trash IDs from: https://trash-guides.info/
+# - Movies (Radarr): https://trash-guides.info/Radarr/
+# - Series (Sonarr): https://trash-guides.info/Sonarr/
+# - Music (Lidarr): https://trash-guides.info/Lidarr/
+# - Books (Readarr): https://trash-guides.info/Readarr/
+
+# Sonarr Configuration
+sonarr:
+  - base_url: http://sonarr:8989
+    api_key: 56009e9dba5de026fe944efef084e0b4f929aedf22c6c4d660fb74e9f2e4b13f
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+    quality_definition:
+      type: series
+      preferred_ratio: 0.5
+    quality_profiles:
+      - name: HD-1080p
+        reset_unmatched_scores: true
+        upgrade_until_quality: Bluray-1080p
+        min_score: 0
+        qualities:
+          - name: Bluray-1080p
+            score: 200
+          - name: WEB 1080p
+            score: 180
+          - name: HDTV-1080p
+            score: 90
+    custom_formats:
+      # Language Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+      # Audio Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+      # HDR Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+
+# Radarr Configuration
+radarr:
+  - base_url: http://radarr:7878
+    api_key: 4f21dd73fef64eb6576a69aa4996c545fb343b1af77988e92886f824dbd0257c
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+    quality_definition:
+      type: movie
+      preferred_ratio: 0.5
+    quality_profiles:
+      - name: HD-1080p
+        reset_unmatched_scores: true
+        upgrade_until_quality: Bluray-1080p
+        min_score: 0
+        qualities:
+          - name: Bluray-1080p
+            score: 200
+          - name: WEB 1080p
+            score: 180
+          - name: HDTV-1080p
+            score: 90
+    custom_formats:
+      # Movie Versions
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+      # Audio Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+      # HDR Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+
+# Lidarr Configuration
+lidarr:
+  - base_url: http://lidarr:8686
+    api_key: 146ae171db19a5a63d9649faf34ba850c21b8f0bad994e62fd1ea5f5aa725740
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+    quality_definition:
+      type: music
+      preferred_ratio: 0.5
+    quality_profiles:
+      - name: Music-Standard
+        reset_unmatched_scores: true
+        qualities:
+          - name: FLAC
+            score: 200
+          - name: MP3
+            score: 100
+    custom_formats:
+      # Audio Quality
+      - trash_ids: []
+        quality_profiles:
+          - name: Music-Standard
+            score: 100
+      # Release Types
+      - trash_ids: []
+        quality_profiles:
+          - name: Music-Standard
+            score: 100
+
+# Readarr Configuration
+readarr:
+  - base_url: http://readarr:8787
+    api_key: 570fa54ae44f771fb3a2506b5b916bfa90105e944a865b200e47796971aae665
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+    quality_definition:
+      type: book
+      preferred_ratio: 0.5
+    quality_profiles:
+      - name: Ebook-Standard
+        reset_unmatched_scores: true
+        qualities:
+          - name: EPUB
+            score: 200
+          - name: PDF
+            score: 100
+    custom_formats:
+      # Book Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: Ebook-Standard
+            score: 100
+      # Release Types
+      - trash_ids: []
+        quality_profiles:
+          - name: Ebook-Standard
+            score: 100
+
+# Schedule Configuration
+schedule:
+  - name: sync-hourly
+    schedule: "0 * * * *"  # Every hour
+    custom_formats: true
+    quality_profiles: true
+    quality_definitions: true
+    delete_old_custom_formats: true

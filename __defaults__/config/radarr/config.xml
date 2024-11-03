@@ -1,0 +1,18 @@
+<Config>
+  <LogLevel>info</LogLevel>
+  <UpdateMechanism>Docker</UpdateMechanism>
+  <UrlBase>//radarr</UrlBase>
+  <Branch>master</Branch>
+  <Port>7878</Port>
+  <BindAddress>*</BindAddress>
+  <ApiKey>4f21dd73fef64eb6576a69aa4996c545fb343b1af77988e92886f824dbd0257c</ApiKey>
+  <AuthenticationMethod>Forms</AuthenticationMethod>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
+  <SslPort>0</SslPort>
+  <EnableSsl>False</EnableSsl>
+  <LaunchBrowser>False</LaunchBrowser>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
+  <SslCertPath></SslCertPath>
+  <SslCertPassword></SslCertPassword>
+  <InstanceName>Radarr</InstanceName>
+</Config>

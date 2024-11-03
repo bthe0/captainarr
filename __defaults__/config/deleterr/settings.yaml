@@ -1,0 +1,76 @@
+plex:
+  url: "http://plex:32400"
+  token: "claim-MPt7M4vqHGRp4KVcdkyX"
+
+radarr:
+  - name: "Radarr"
+    url: "http://radarr:7878"
+    api_key: "4f21dd73fef64eb6576a69aa4996c545fb343b1af77988e92886f824dbd0257c"
+
+sonarr:
+  - name: "Sonarr"
+    url: "http://sonarr:8989"
+    api_key: "56009e9dba5de026fe944efef084e0b4f929aedf22c6c4d660fb74e9f2e4b13f"
+
+dry_run: true
+plex_library_scan_after_actions: false
+tautulli_library_scan_after_actions: false
+action_delay: 25
+
+libraries:
+  - name: "Movies"
+    radarr: "Radarr"
+    action_mode: "delete"
+    add_list_exclusion_on_delete: True
+    last_watched_threshold: 30
+    watch_status: watched
+    apply_last_watch_threshold_to_collections: true
+    added_at_threshold: 90
+    max_actions_per_run: 10
+    disk_size_threshold:
+      - path: "/movies"
+        threshold: 1TB
+      - path: "/downloads/complete/movies-radarr"
+        threshold: 1TB
+    sort:
+      field: release_year
+      order: asc
+    exclude:
+      titles: []
+      tags: ["favorite"]
+      genres: []
+      collections: []
+      actors: []
+      producers: []
+      directors: []
+      writers: []
+      studios: []
+      release_years: 5
+
+  - name: "TV Shows"
+    action_mode: delete
+    last_watched_threshold: 365
+    added_at_threshold: 180
+    apply_last_watch_threshold_to_collections: false
+    max_actions_per_run: 10
+    disk_size_threshold:
+      - path: "/movies"
+        threshold: 1TB
+      - path: "/downloads/complete/movies-radarr"
+        threshold: 1TB
+    sonarr: Sonarr
+    series_type: standard
+    sort:
+      field: seasons
+      order: desc
+    exclude:
+      titles: []
+      tags: []
+      genres: []
+      collections: []
+      actors: []
+      producers: []
+      directors: []
+      writers: []
+      studios: []
+      release_years: 2

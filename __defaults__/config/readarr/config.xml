@@ -1,0 +1,18 @@
+<Config>
+  <LogLevel>info</LogLevel>
+  <UpdateMechanism>Docker</UpdateMechanism>
+  <UrlBase>//readarr</UrlBase>
+  <Branch>develop</Branch>
+  <Port>8787</Port>
+  <BindAddress>*</BindAddress>
+  <ApiKey>570fa54ae44f771fb3a2506b5b916bfa90105e944a865b200e47796971aae665</ApiKey>
+  <AuthenticationMethod>Forms</AuthenticationMethod>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
+  <SslPort>0</SslPort>
+  <EnableSsl>False</EnableSsl>
+  <LaunchBrowser>False</LaunchBrowser>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
+  <SslCertPath></SslCertPath>
+  <SslCertPassword></SslCertPassword>
+  <InstanceName>Readarr</InstanceName>
+</Config>

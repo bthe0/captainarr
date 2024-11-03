@@ -1,0 +1,218 @@
+2024-11-03T11:40:15.456Z [info]: Commit Tag: $GIT_SHA 
+2024-11-03T11:40:15.692Z [info]: Starting Overseerr version 1.33.2 
+2024-11-03T11:40:16.870Z [info][Notifications]: Registered notification agents 
+2024-11-03T11:40:16.899Z [info][Jobs]: Scheduled jobs loaded 
+2024-11-03T11:40:16.907Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":1,"enabled":true,"isBuiltIn":true,"order":0}}
+2024-11-03T11:40:16.920Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":2,"enabled":true,"isBuiltIn":true,"order":1}}
+2024-11-03T11:40:16.931Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":3,"enabled":true,"isBuiltIn":true,"order":2}}
+2024-11-03T11:40:16.938Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":4,"enabled":true,"isBuiltIn":true,"order":3}}
+2024-11-03T11:40:16.943Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":5,"enabled":true,"isBuiltIn":true,"order":4}}
+2024-11-03T11:40:16.953Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":6,"enabled":true,"isBuiltIn":true,"order":5}}
+2024-11-03T11:40:16.959Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":7,"enabled":true,"isBuiltIn":true,"order":6}}
+2024-11-03T11:40:16.963Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":8,"enabled":true,"isBuiltIn":true,"order":7}}
+2024-11-03T11:40:16.969Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":9,"enabled":true,"isBuiltIn":true,"order":8}}
+2024-11-03T11:40:16.976Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":10,"enabled":true,"isBuiltIn":true,"order":9}}
+2024-11-03T11:40:16.983Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":11,"enabled":true,"isBuiltIn":true,"order":10}}
+2024-11-03T11:40:16.988Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":12,"enabled":true,"isBuiltIn":true,"order":11}}
+2024-11-03T11:40:17.124Z [info][Server]: Server ready on port 5055 
+2024-11-03T11:41:00.042Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:42:00.051Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:43:00.037Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:44:00.041Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:45:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:45:00.025Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T11:45:00.027Z [info][Plex Scan]: Scan starting {"sessionId":"f939b5c5-e065-40cc-8e75-fcb4c8fce8b0"}
+2024-11-03T11:45:00.032Z [warn][Plex Scan]: No admin configured. Plex scan skipped. 
+2024-11-03T11:46:00.047Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:47:00.044Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:48:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:49:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:50:00.055Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:50:00.059Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T11:50:00.060Z [info][Plex Scan]: Scan starting {"sessionId":"33c2c634-9004-47cb-9ab3-2c328c28197f"}
+2024-11-03T11:50:00.062Z [warn][Plex Scan]: No admin configured. Plex scan skipped. 
+2024-11-03T11:51:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:52:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:53:00.041Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:54:00.051Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:56:34.581Z [info]: Commit Tag: $GIT_SHA 
+2024-11-03T11:56:35.049Z [info]: Starting Overseerr version 1.33.2 
+2024-11-03T11:56:36.202Z [info][Notifications]: Registered notification agents 
+2024-11-03T11:56:36.261Z [info][Jobs]: Scheduled jobs loaded 
+2024-11-03T11:56:36.442Z [info][Server]: Server ready on port 5055 
+2024-11-03T11:57:00.069Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:58:00.041Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T11:59:00.044Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:00:00.039Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:00:00.044Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:00:00.045Z [info][Plex Scan]: Scan starting {"sessionId":"4ef9589e-3f03-440e-b310-0871d2f00134"}
+2024-11-03T12:00:00.049Z [warn][Plex Scan]: No admin configured. Plex scan skipped. 
+2024-11-03T12:01:00.039Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:02:00.058Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:03:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:04:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:05:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:05:00.040Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:05:00.040Z [info][Plex Scan]: Scan starting {"sessionId":"9a00d6f0-e562-4be4-9029-58aeffb3d13b"}
+2024-11-03T12:05:00.043Z [warn][Plex Scan]: No admin configured. Plex scan skipped. 
+2024-11-03T12:06:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:07:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:08:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:09:00.038Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:10:00.037Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:10:00.042Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:10:00.043Z [info][Plex Scan]: Scan starting {"sessionId":"88456f77-15a3-4adb-a470-4e154c523d49"}
+2024-11-03T12:10:00.046Z [warn][Plex Scan]: No admin configured. Plex scan skipped. 
+2024-11-03T12:11:00.042Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:12:00.041Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:13:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:14:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:15:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:15:00.024Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:15:00.024Z [info][Plex Scan]: Scan starting {"sessionId":"83652915-fdd2-4219-8a28-3addc72edfaf"}
+2024-11-03T12:15:00.026Z [warn][Plex Scan]: No admin configured. Plex scan skipped. 
+2024-11-03T12:16:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:16:36.240Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-11-03T12:17:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:18:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:19:00.038Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:20:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:20:00.024Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:20:00.025Z [info][Plex Scan]: Scan starting {"sessionId":"be5f89c4-9a8f-48da-908c-b8aabf897a32"}
+2024-11-03T12:20:00.034Z [error][Plex Scan]: Scan interrupted {"errorMessage":"connect ECONNREFUSED 127.0.0.1:32400"}
+2024-11-03T12:20:15.658Z [info][Plex Scan]: Scan starting {"sessionId":"610ac104-3717-4913-9e10-e932a2c0a91b"}
+2024-11-03T12:20:15.670Z [info][Plex Scan]: Beginning to process library: Movies 
+2024-11-03T12:20:15.677Z [info][Plex Scan]: Beginning to process library: TV Shows 
+2024-11-03T12:20:15.683Z [info][Plex Scan]: Full Scan Complete 
+2024-11-03T12:21:00.013Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:22:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:22:22.214Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Deadpool & Wolverine (2024)"}
+2024-11-03T12:22:22.217Z [info][Media Request]: Sent request to Radarr {"requestId":1,"mediaId":1}
+2024-11-03T12:22:22.680Z [info][Radarr]: Radarr accepted request 
+2024-11-03T12:22:22.681Z [debug][Radarr]: Radarr add details {"movie":{"title":"Deadpool & Wolverine","originalTitle":"Deadpool & Wolverine","originalLanguage":{"id":1,"name":"English"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"deadpool wolverine","sizeOnDisk":0,"status":"released","overview":"A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.","inCinemas":"2024-07-24T00:00:00Z","physicalRelease":"2024-10-22T00:00:00Z","digitalRelease":"2024-10-01T00:00:00Z","releaseDate":"2024-10-01T00:00:00Z","images":[{"coverType":"poster","url":"/radarr/MediaCover/1/poster.jpg","remoteUrl":"https://image.tmdb.org/t/p/original/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"},{"coverType":"fanart","url":"/radarr/MediaCover/1/fanart.jpg","remoteUrl":"https://image.tmdb.org/t/p/original/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg"}],"website":"https://www.marvel.com/movies/deadpool-and-wolverine","year":2024,"youTubeTrailerId":"Idh8n5XuYIA","studio":"Marvel Studios","path":"/movies/Deadpool & Wolverine (2024)","qualityProfileId":3,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/movies/Deadpool & Wolverine (2024)","runtime":128,"cleanTitle":"deadpoolwolverine","imdbId":"tt6263850","tmdbId":533535,"titleSlug":"533535","rootFolderPath":"/movies/","certification":"R","genres":["Action","Comedy","Science Fiction"],"tags":[],"added":"2024-11-03T12:22:22Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":319399,"value":7.8,"type":"user"},"tmdb":{"votes":4976,"value":7.705,"type":"user"},"rottenTomatoes":{"votes":0,"value":78,"type":"user"},"trakt":{"votes":17913,"value":7.93078,"type":"user"}},"collection":{"title":"Deadpool Collection","tmdbId":448150},"popularity":1724.744,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[]},"id":1}}
+2024-11-03T12:23:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:23:12.933Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"A Quiet Place: Day One (2024)"}
+2024-11-03T12:23:12.936Z [info][Media Request]: Sent request to Radarr {"requestId":2,"mediaId":2}
+2024-11-03T12:23:13.098Z [info][Radarr]: Radarr accepted request 
+2024-11-03T12:23:13.098Z [debug][Radarr]: Radarr add details {"movie":{"title":"A Quiet Place: Day One","originalTitle":"A Quiet Place: Day One","originalLanguage":{"id":1,"name":"English"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"quiet place day one","sizeOnDisk":0,"status":"released","overview":"As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat.","inCinemas":"2024-06-26T00:00:00Z","physicalRelease":"2024-10-07T00:00:00Z","digitalRelease":"2024-07-24T00:00:00Z","releaseDate":"2024-07-24T00:00:00Z","images":[{"coverType":"poster","url":"/radarr/MediaCover/2/poster.jpg","remoteUrl":"https://image.tmdb.org/t/p/original/hU42CRk14JuPEdqZG3AWmagiPAP.jpg"},{"coverType":"fanart","url":"/radarr/MediaCover/2/fanart.jpg","remoteUrl":"https://image.tmdb.org/t/p/original/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg"}],"website":"https://www.aquietplacemovie.com","year":2024,"youTubeTrailerId":"E-WIb4ATfT8","studio":"Paramount Pictures","path":"/movies/A Quiet Place - Day One (2024)","qualityProfileId":3,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/movies/A Quiet Place - Day One (2024)","runtime":99,"cleanTitle":"aquietplacedayone","imdbId":"tt13433802","tmdbId":762441,"titleSlug":"762441","rootFolderPath":"/movies/","certification":"PG-13","genres":["Horror","Science Fiction","Thriller"],"tags":[],"added":"2024-11-03T12:23:13Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":105481,"value":6.3,"type":"user"},"tmdb":{"votes":2049,"value":6.796,"type":"user"},"rottenTomatoes":{"votes":0,"value":87,"type":"user"},"trakt":{"votes":7941,"value":6.52172,"type":"user"}},"popularity":305.395,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[]},"id":2}}
+2024-11-03T12:24:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:25:00.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:25:00.030Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:25:00.030Z [info][Plex Scan]: Scan starting {"sessionId":"d9ca9a93-1380-409d-b0b0-abf988d581d9"}
+2024-11-03T12:25:00.044Z [info][Plex Scan]: Beginning to process recently added for library: Movies {}
+2024-11-03T12:25:00.074Z [info][Notifications]: Sending notification(s) for MEDIA_AVAILABLE {"subject":"A Quiet Place: Day One (2024)"}
+2024-11-03T12:25:00.076Z [info][Plex Scan]: Media for A Quiet Place: Day One exists. Changes were detected and the title will be updated. 
+2024-11-03T12:25:04.083Z [info][Plex Scan]: Beginning to process recently added for library: TV Shows {}
+2024-11-03T12:25:04.092Z [info][Plex Scan]: Recently Added Scan Complete 
+2024-11-03T12:26:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:27:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:28:00.013Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:29:00.031Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:30:00.051Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:30:00.056Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:30:00.057Z [info][Plex Scan]: Scan starting {"sessionId":"ceed93b8-81a1-42b9-82e7-1c23417b50d0"}
+2024-11-03T12:30:00.889Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T12:30:00.893Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T12:31:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:31:16.727Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-11-03T12:32:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:33:00.040Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:34:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:35:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:35:00.031Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:35:00.031Z [info][Plex Scan]: Scan starting {"sessionId":"7d0f3331-a4df-4590-b977-d2bf070d1691"}
+2024-11-03T12:35:00.045Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T12:35:00.054Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T12:36:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:37:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:38:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:39:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:40:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:40:00.015Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:40:00.015Z [info][Plex Scan]: Scan starting {"sessionId":"8bfbc3d7-42ee-4d25-9722-3b290c7473f6"}
+2024-11-03T12:40:00.949Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T12:40:00.956Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T12:41:00.029Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:42:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:43:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:44:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:45:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:45:00.029Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:45:00.030Z [info][Plex Scan]: Scan starting {"sessionId":"e9d67df1-a5e8-4658-a654-c7487bf110e5"}
+2024-11-03T12:45:00.037Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T12:45:00.041Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T12:46:00.047Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:47:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:48:00.038Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:49:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:50:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:50:00.041Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:50:00.041Z [info][Plex Scan]: Scan starting {"sessionId":"4f9564ab-f182-4e48-ac23-ed1d84d37621"}
+2024-11-03T12:50:00.934Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T12:50:00.938Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T12:51:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:52:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:53:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:54:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:54:36.120Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-11-03T12:55:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:55:00.031Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T12:55:00.031Z [info][Plex Scan]: Scan starting {"sessionId":"ddd93767-1b0c-4754-887e-ba4557d1a505"}
+2024-11-03T12:55:00.048Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T12:55:00.053Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T12:56:00.029Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:57:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:58:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T12:59:00.037Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:00:00.039Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:00:00.044Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T13:00:00.045Z [info][Plex Scan]: Scan starting {"sessionId":"62cfe4fe-4816-432b-94b8-494b3fe3bfe4"}
+2024-11-03T13:00:00.868Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T13:00:00.872Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T13:01:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:02:00.035Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:03:00.037Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:04:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:05:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:05:00.036Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T13:05:00.037Z [info][Plex Scan]: Scan starting {"sessionId":"60d97327-750b-417b-a472-ca32ab0298aa"}
+2024-11-03T13:05:00.053Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T13:05:00.063Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T13:06:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:07:00.048Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:08:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:09:00.039Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:10:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:10:00.033Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T13:10:00.033Z [info][Plex Scan]: Scan starting {"sessionId":"ffc9f25e-d893-47d7-aadf-de9c94f9be52"}
+2024-11-03T13:10:00.901Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T13:10:00.908Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T13:11:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:12:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:13:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:14:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:15:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:15:00.044Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T13:15:00.044Z [info][Plex Scan]: Scan starting {"sessionId":"36787c10-5707-417c-9071-c1efec112be9"}
+2024-11-03T13:15:00.058Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T13:15:00.065Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T13:16:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:16:40.902Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-11-03T13:17:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:18:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:19:00.035Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:20:00.039Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:20:00.044Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T13:20:00.045Z [info][Plex Scan]: Scan starting {"sessionId":"3375f873-a1e0-440b-a1f6-d70f3c12489c"}
+2024-11-03T13:20:01.248Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T13:20:01.253Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T13:21:00.038Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:22:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:23:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:24:00.029Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:25:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-11-03T13:25:00.036Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2024-11-03T13:25:00.036Z [info][Plex Scan]: Scan starting {"sessionId":"37fd5e7c-3d5a-462a-91ca-630e5fe0846c"}
+2024-11-03T13:25:00.043Z [info][Plex Scan]: Beginning to process recently added for library: Movies {"lastScan":1730636704082}
+2024-11-03T13:25:00.053Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Plex Server didnt respond with a valid 2xx status code, response code: 404"}
+2024-11-03T13:26:00.035Z [debug][Jobs]: Starting scheduled job: Download Sync 

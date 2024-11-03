@@ -1,0 +1,14 @@
+{
+    "books-readarr": {
+        "save_path": "/downloads/complete/books-readarr"
+    },
+    "movies-radarr": {
+        "save_path": "/downloads/complete/movies-radarr"
+    },
+    "music-lidarr": {
+        "save_path": "/downloads/complete/music-lidarr"
+    },
+    "tv-sonarr": {
+        "save_path": "/downloads/complete/tv-sonarr"
+    }
+}

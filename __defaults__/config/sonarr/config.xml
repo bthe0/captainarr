@@ -1,0 +1,18 @@
+<Config>
+  <LogLevel>info</LogLevel>
+  <UpdateMechanism>Docker</UpdateMechanism>
+  <UrlBase>//sonarr</UrlBase>
+  <Branch>main</Branch>
+  <Port>8989</Port>
+  <BindAddress>*</BindAddress>
+  <ApiKey>56009e9dba5de026fe944efef084e0b4f929aedf22c6c4d660fb74e9f2e4b13f</ApiKey>
+  <AuthenticationMethod>Forms</AuthenticationMethod>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
+  <SslPort>0</SslPort>
+  <EnableSsl>False</EnableSsl>
+  <LaunchBrowser>False</LaunchBrowser>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
+  <InstanceName>Sonarr</InstanceName>
+  <SslCertPath></SslCertPath>
+  <SslCertPassword></SslCertPassword>
+</Config>

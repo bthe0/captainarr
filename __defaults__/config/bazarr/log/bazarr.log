@@ -1,0 +1,9 @@
+2024-11-03 11:40:21|INFO    |waitress                        |BAZARR is started and waiting for requests on: http://***.***.***.***:6767|
+2024-11-03 11:40:21|INFO    |waitress                        |BAZARR is started and waiting for requests on: http://[::]:6767|
+2024-11-03 11:56:39|INFO    |waitress                        |BAZARR is started and waiting for requests on: http://***.***.***.***:6767|
+2024-11-03 11:56:39|INFO    |waitress                        |BAZARR is started and waiting for requests on: http://[::]:6767|
+2024-11-03 12:09:09|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+2024-11-03 12:11:36|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+2024-11-03 12:11:36|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+2024-11-03 12:12:15|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+2024-11-03 12:12:15|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|

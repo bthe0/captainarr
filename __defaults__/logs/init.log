@@ -1,0 +1,295 @@
+[0;34m[INFO][0m 2024-11-03 12:16:03 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 12:16:03 - Creating base directories...
+[0;32m[SUCCESS][0m 2024-11-03 12:16:03 - Created directory: ./config
+[0;32m[SUCCESS][0m 2024-11-03 12:16:03 - Created directory: /Users/theo/Desktop/media/storage
+[0;34m[INFO][0m 2024-11-03 12:16:03 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 12:16:03 - Available space in /Users/theo/Desktop/media/storage: 863GB
+[0;34m[INFO][0m 2024-11-03 12:16:03 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 12:16:03 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: ./config/traefik
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: /Users/theo/Desktop/media/storage/TORRENTS/COMPLETE
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: /Users/theo/Desktop/media/storage/TORRENTS/INCOMPLETE
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: /Users/theo/Desktop/media/storage/MOVIES
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: /Users/theo/Desktop/media/storage/SERIES
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: /Users/theo/Desktop/media/storage/BOOKS
+[0;32m[SUCCESS][0m 2024-11-03 12:16:04 - Created directory: /Users/theo/Desktop/media/storage/AUDIO
+[0;34m[INFO][0m 2024-11-03 12:16:04 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 12:16:04 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 12:16:04 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 12:16:05 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 12:16:05 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 12:16:05 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 12:16:05 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 12:22:31 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 12:22:31 - Creating base directories...
+[0;34m[INFO][0m 2024-11-03 12:22:31 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 12:22:31 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 12:22:31 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 12:22:31 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 12:22:31 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 12:22:31 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 12:22:31 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 12:22:32 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 12:22:32 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 12:22:32 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 12:22:32 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 12:26:10 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 12:26:10 - Creating base directories...
+[0;34m[INFO][0m 2024-11-03 12:26:10 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 12:26:10 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 12:26:10 - Creating directory structure...
+[0;34m[INFO][0m 2024-11-03 12:26:10 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 12:26:11 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 12:26:11 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 12:26:11 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 12:26:11 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 12:26:11 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 12:26:11 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 12:26:23 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 12:26:23 - Creating base directories...
+[0;34m[INFO][0m 2024-11-03 12:26:23 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 12:26:23 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 12:26:23 - Creating directory structure...
+[0;34m[INFO][0m 2024-11-03 12:26:24 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 12:26:24 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 12:26:24 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 12:26:24 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 12:26:24 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 12:26:24 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 12:26:24 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 12:52:28 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 12:52:29 - Creating base directories...
+[0;34m[INFO][0m 2024-11-03 12:52:29 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 12:52:29 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 12:52:29 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 12:52:29 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 12:52:29 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 12:52:29 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 12:52:29 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 12:52:30 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 12:52:30 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 12:52:30 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 12:52:30 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 13:02:25 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 13:02:25 - Creating base directories...
+[0;34m[INFO][0m 2024-11-03 13:02:25 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 13:02:25 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 13:02:25 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 13:02:25 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 13:02:25 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 13:02:26 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 13:02:26 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 13:02:26 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 13:02:26 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 13:02:26 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 13:02:26 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 13:11:29 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 13:11:29 - Creating base directories...
+[0;34m[INFO][0m 2024-11-03 13:11:29 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 13:11:29 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 13:11:29 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:29 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:30 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:30 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 13:11:30 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 13:11:30 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 13:11:30 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 13:11:30 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 13:11:30 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 13:11:30 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 13:11:30 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 13:11:30 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 13:21:54 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 13:21:55 - Creating base directories...
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config
+[0;34m[INFO][0m 2024-11-03 13:21:55 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 13:21:55 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 13:21:55 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 13:21:55 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 13:21:55 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 13:21:55 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 13:21:55 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 13:21:56 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 13:21:56 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 13:21:56 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 13:21:56 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 13:24:39 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 13:24:39 - Creating base directories...
+[0;34m[INFO][0m 2024-11-03 13:24:39 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 13:24:39 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 13:24:39 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:39 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:40 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 13:24:40 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 13:24:40 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 13:24:40 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 13:24:40 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 13:24:40 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 13:24:40 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 13:24:40 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 13:24:40 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 13:27:51 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 13:27:51 - Creating base directories...
+[0;32m[SUCCESS][0m 2024-11-03 13:27:51 - Created directory: ./config
+[0;34m[INFO][0m 2024-11-03 13:27:51 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 13:27:52 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 13:27:52 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 13:27:52 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 13:27:52 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 13:27:52 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 13:27:52 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 13:27:53 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 13:27:53 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 13:27:53 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 13:27:53 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 13:40:10 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 13:40:10 - Creating base directories...
+[0;32m[SUCCESS][0m 2024-11-03 13:40:10 - Created directory: ./config
+[0;34m[INFO][0m 2024-11-03 13:40:10 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 13:40:10 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 13:40:10 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 13:40:10 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 13:40:10 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:10 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:10 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:10 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:10 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:10 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:11 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:11 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 13:40:11 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:11 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:11 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:11 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 13:40:11 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 13:40:11 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 13:40:11 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 13:40:11 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 13:40:11 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 13:40:11 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 13:40:11 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 13:40:11 - System Preferences > Security & Privacy > Privacy > Full Disk Access
+[0;34m[INFO][0m 2024-11-03 13:55:25 - Checking Docker installation...
+[0;34m[INFO][0m 2024-11-03 13:55:25 - Creating base directories...
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config
+[0;34m[INFO][0m 2024-11-03 13:55:25 - Checking available disk space...
+[0;34m[INFO][0m 2024-11-03 13:55:25 - Available space in /Users/theo/Desktop/media/storage: 855GB
+[0;34m[INFO][0m 2024-11-03 13:55:25 - Creating directory structure...
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/plex
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/sonarr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/radarr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/lidarr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/readarr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/prowlarr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/overseerr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/bazarr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/qbittorrent
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/homarr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/deleterr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/organizr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/recyclarr
+[0;32m[SUCCESS][0m 2024-11-03 13:55:25 - Created directory: ./config/traefik
+[0;34m[INFO][0m 2024-11-03 13:55:26 - Checking network connectivity...
+[0;34m[INFO][0m 2024-11-03 13:55:26 - Running final checks...
+[0;34m[INFO][0m 2024-11-03 13:55:26 - Generating configurations...
+[0;32m[SUCCESS][0m 2024-11-03 13:55:26 - Initialization complete!
+[0;34m[INFO][0m 2024-11-03 13:55:26 - You can now run './captainarr.sh start' to start the services
+[0;34m[INFO][0m 2024-11-03 13:55:26 - macOS detected: If you experience permission issues, grant Full Disk Access to Terminal
+[0;34m[INFO][0m 2024-11-03 13:55:26 - System Preferences > Security & Privacy > Privacy > Full Disk Access

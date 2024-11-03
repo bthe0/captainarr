@@ -138,9 +138,9 @@ check_required_files() {
 check_required_files
 
 if [ "$USE_DEFAULTS" = true ]; then
-    # Check if __defaults__.zip exists
-    if [ ! -f "__defaults__.zip" ]; then
-        log "RED" "Error: __defaults__.zip not found!"
+    # Check if __defaults__ folder exists
+    if [ ! -d "__defaults__" ]; then
+        log "RED" "Error: __defaults__ folder not found!"
         exit 1
     fi
 
@@ -156,12 +156,11 @@ if [ "$USE_DEFAULTS" = true ]; then
         [ -d "storage" ] && cp -r storage "$backup_dir/"
     fi
     
-    # Unzip defaults with specific exclusions
-    log "BLUE" "Extracting default configuration..."
-    unzip -o __defaults__.zip -x "__MACOSX/*" "*.DS_Store" -d .
+    # Copy files from __defaults__ folder
+    log "BLUE" "Copying default configuration..."
+    cp -rf __defaults__/* .
     
-    # Remove any macOS-specific folders if they were created
-    rm -rf __MACOSX
+    # Remove any macOS-specific files if they exist
     find . -name ".DS_Store" -delete
     
     # Print login information
@@ -175,6 +174,11 @@ if [ "$USE_DEFAULTS" = true ]; then
     echo -e "   ${YELLOW}nano .env${NC}"
     echo -e "\n2. After setting your Plex claim token, start the services with:"
     echo -e "   ${YELLOW}./captainarr.sh start${NC}"
+    echo -e "\n3. If you want to use a different storage location:"
+    echo -e "   a. Copy the entire folder structure to your desired location:"
+    echo -e "      ${YELLOW}cp -r . /path/to/new/location${NC}"
+    echo -e "   b. Create a symbolic link to the new location:"
+    echo -e "      ${YELLOW}ln -s /path/to/new/location/storage ./storage${NC}"
     
 else
     # Regular installation flow

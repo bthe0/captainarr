@@ -1,0 +1,8 @@
+Nov 03, 2024 12:24:56.649 [281473254211064] INFO - Plex Media Scanner v1.41.1.9057-af5eaea7a - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Nov 03, 2024 12:24:56.649 [281473254211064] INFO - Linux version: 6.10.11-linuxkit, language: en-US
+Nov 03, 2024 12:24:56.649 [281473254211064] INFO - Processor: 10-core AArch64
+Nov 03, 2024 12:24:56.649 [281473254211064] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1
+Nov 03, 2024 12:24:56.649 [281473277349944] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 03, 2024 12:24:56.651 [281473277349944] INFO - SQLITE3:0xffff9ab234c0, 283, recovered 23 frames from WAL file /config/Library/Application Support/Plex Media Server/Plug-in Support/Databases/com.plexapp.plugins.library.db-wal
+Nov 03, 2024 12:24:56.708 [281473277349944] DEBUG - Matcher: found 0 auxiliary files for A Quiet Place: Day One
+Nov 03, 2024 12:24:56.708 [281473277349944] DEBUG - Matcher: no sidecar subtitle files found for /movies/A Quiet Place - Day One (2024)/A.Quiet.Place.Day.One.2024.720p.WEBRip.800MB.x264-GalaxyRG[TGx].mkv
