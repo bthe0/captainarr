@@ -58,6 +58,9 @@ services:
     <<: *common
     image: lscr.io/linuxserver/plex:latest
     container_name: plex
+    ports:
+      - 32400:32400
+      - 32400:32400/udp
     environment:
       <<: *commonenv
       VERSION: docker
@@ -275,9 +278,11 @@ services:
     image: ghcr.io/rfsbraz/deleterr:latest
     environment:
       <<: *commonenv
-      DELETE_AFTER_SEED: ${DELETE_AFTER_SEED:-false}
     volumes:
       - ${CONFIG_ROOT}/deleterr:/config
+      - ${STORAGE_ROOT}/SERIES:${SERIES_PATH}:ro
+      - ${STORAGE_ROOT}/MOVIES:${MOVIES_PATH}:ro
+      - ${STORAGE_ROOT}/TORRENTS/COMPLETE:${DOWNLOADS_PATH}/complete:ro
     labels:
       - traefik.enable=true
       - traefik.http.routers.deleterr.rule=Host(`deleterr.${DOMAIN:-localhost}`)

@@ -65,6 +65,39 @@ update_env_var() {
     mv "$temp_file" "$env_file"
 }
 
+generate_calibre_config() {
+    create_dir "$CONFIG_ROOT/calibre"
+    
+    # Check if source metadata.db exists
+    if [ -f "./misc/metadata.db" ]; then
+        cp "./misc/metadata.db" "$CONFIG_ROOT/calibre/metadata.db"
+        log "BLUE" "Copied Calibre metadata database"
+    else
+        log "YELLOW" "Warning: metadata.db not found in ./misc directory"
+    fi
+}
+
+generate_qbittorrent_categories() {
+    local categories_json="$CONFIG_ROOT/qbittorrent/qBittorrent/categories.json"
+    create_file "$categories_json" "$(cat << EOF
+{
+    "${QB_CATEGORY_TV}": {
+        "save_path": "${DOWNLOADS_PATH}/complete/${QB_CATEGORY_TV}"
+    },
+    "${QB_CATEGORY_MOVIES}": {
+        "save_path": "${DOWNLOADS_PATH}/complete/${QB_CATEGORY_MOVIES}"
+    },
+    "${QB_CATEGORY_MUSIC}": {
+        "save_path": "${DOWNLOADS_PATH}/complete/${QB_CATEGORY_MUSIC}"
+    },
+    "${QB_CATEGORY_BOOKS}": {
+        "save_path": "${DOWNLOADS_PATH}/complete/${QB_CATEGORY_BOOKS}"
+    }
+}
+EOF
+)"
+}
+
 generate_qbittorrent_config() {
     create_dir "$CONFIG_ROOT/qbittorrent/qBittorrent"
     create_file "$CONFIG_ROOT/qbittorrent/qBittorrent/qBittorrent.conf" "$(cat << EOF
@@ -73,34 +106,41 @@ enabled=true
 program=unzip "%F" -d "%D"
 
 [BitTorrent]
-Session\\DefaultSavePath=${DOWNLOADS_PATH}/complete
-Session\\TempPath=${DOWNLOADS_PATH}/incomplete
-Session\\Port=6881
-Session\\MaxRatioAction=1
-Session\\GlobalMaxRatio=1.0
-Session\\RemoveFilesAfterRatio=${DELETE_AFTER_SEED}
+Session\DefaultSavePath=${DOWNLOADS_PATH}/complete
+Session\TempPath=${DOWNLOADS_PATH}/incomplete
+Session\Port=6881
+Session\MaxRatioAction=0
+Session\GlobalMaxRatio=1.0
+Session\GlobalMaxSeedingMinutes=-1
+Session\MaxRatioAction=PauseIfSeedingTimeReached
+Session\GlobalMaxInactiveSeedingTime=0
+Session\MaxInactiveSeedingTime=0
+Session\ShareLimitAction=0
 
 [Preferences]
-WebUI\\Port=8080
-WebUI\\Username=admin
+WebUI\Port=8080
+WebUI\Username=admin
 WebUI\Password_PBKDF2="@ByteArray(ARQ77eY1NUZaQsuDHbIMCA==:0WMRkYTUWVT9wVvdDtHAjU9b3b7uB8NR1Gur2hmQCvCDpm39Q+PsJRJPaCU51dEiz+dTzh8qbPsL8WkFljQYFQ==)"
-WebUI\\Address=*
-WebUI\\ServerDomains=*
-WebUI\\UseUPnP=false
-WebUI\\RootFolder=${BASE_PATH:-}/qbittorrent
-Connection\\UPnP=false
-Downloads\\SavePath=${DOWNLOADS_PATH}/complete
-Downloads\\TempPath=${DOWNLOADS_PATH}/incomplete
-Downloads\\PreAllocation=true
-Downloads\\UseIncompleteExtension=true
+WebUI\Address=*
+WebUI\ServerDomains=*
+WebUI\UseUPnP=false
+WebUI\RootFolder=${BASE_PATH:-}/qbittorrent
+Connection\UPnP=false
+Downloads\SavePath=${DOWNLOADS_PATH}/complete
+Downloads\TempPath=${DOWNLOADS_PATH}/incomplete
+Downloads\PreAllocation=true
+Downloads\UseIncompleteExtension=true
+Queueing\QueueingEnabled=false
 
-[Categories]
-${QB_CATEGORY_TV}\\\\savePath=${DOWNLOADS_PATH}/complete/${QB_CATEGORY_TV}
-${QB_CATEGORY_MOVIES}\\\\savePath=${DOWNLOADS_PATH}/complete/${QB_CATEGORY_MOVIES}
-${QB_CATEGORY_MUSIC}\\\\savePath=${DOWNLOADS_PATH}/complete/${QB_CATEGORY_MUSIC}
-${QB_CATEGORY_BOOKS}\\\\savePath=${DOWNLOADS_PATH}/complete/${QB_CATEGORY_BOOKS}
+[LegalNotice]
+Accepted=true
+
+[General]
+Configuration\Backup\DeleteOld=false
 EOF
 )"
+
+generate_qbittorrent_categories
 }
 
 generate_arr_base_config() {
@@ -215,11 +255,252 @@ EOF
     chmod 600 "$CONFIG_ROOT/traefik/acme.json"
 }
 
+generate_deleterr_config() {
+    create_file "$CONFIG_ROOT/deleterr/settings.yaml" "$(cat << EOF
+plex:
+  url: "http://plex:32400"
+  token: "${PLEX_CLAIM}"
+
+radarr:
+  - name: "Radarr"
+    url: "http://radarr:7878"
+    api_key: "${RADARR_API_KEY}"
+
+sonarr:
+  - name: "Sonarr"
+    url: "http://sonarr:8989"
+    api_key: "${SONARR_API_KEY}"
+
+dry_run: true
+plex_library_scan_after_actions: false
+tautulli_library_scan_after_actions: false
+action_delay: 25
+
+libraries:
+  - name: "Movies"
+    radarr: "Radarr"
+    action_mode: "delete"
+    add_list_exclusion_on_delete: True
+    last_watched_threshold: 30
+    watch_status: watched
+    apply_last_watch_threshold_to_collections: true
+    added_at_threshold: 90
+    max_actions_per_run: 10
+    disk_size_threshold:
+      - path: "${MOVIES_PATH}"
+        threshold: 1TB
+      - path: "${DOWNLOADS_PATH}/complete/movies-radarr"
+        threshold: 1TB
+    sort:
+      field: release_year
+      order: asc
+    exclude:
+      titles: []
+      tags: ["favorite"]
+      genres: []
+      collections: []
+      actors: []
+      producers: []
+      directors: []
+      writers: []
+      studios: []
+      release_years: 5
+
+  - name: "TV Shows"
+    action_mode: delete
+    last_watched_threshold: 365
+    added_at_threshold: 180
+    apply_last_watch_threshold_to_collections: false
+    max_actions_per_run: 10
+    disk_size_threshold:
+      - path: "${MOVIES_PATH}"
+        threshold: 1TB
+      - path: "${DOWNLOADS_PATH}/complete/movies-radarr"
+        threshold: 1TB
+    sonarr: Sonarr
+    series_type: standard
+    sort:
+      field: seasons
+      order: desc
+    exclude:
+      titles: []
+      tags: []
+      genres: []
+      collections: []
+      actors: []
+      producers: []
+      directors: []
+      writers: []
+      studios: []
+      release_years: 2
+EOF
+)"
+}
+
+generate_recyclarr_config() {
+    create_file "$CONFIG_ROOT/recyclarr/recyclarr.yml" "$(cat << EOF
+# Recyclarr Configuration File
+# Get Trash IDs from: https://trash-guides.info/
+# - Movies (Radarr): https://trash-guides.info/Radarr/
+# - Series (Sonarr): https://trash-guides.info/Sonarr/
+# - Music (Lidarr): https://trash-guides.info/Lidarr/
+# - Books (Readarr): https://trash-guides.info/Readarr/
+
+# Sonarr Configuration
+sonarr:
+  - base_url: http://sonarr:8989
+    api_key: ${SONARR_API_KEY}
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+    quality_definition:
+      type: series
+      preferred_ratio: 0.5
+    quality_profiles:
+      - name: HD-1080p
+        reset_unmatched_scores: true
+        upgrade_until_quality: Bluray-1080p
+        min_score: 0
+        qualities:
+          - name: Bluray-1080p
+            score: 200
+          - name: WEB 1080p
+            score: 180
+          - name: HDTV-1080p
+            score: 90
+    custom_formats:
+      # Language Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+      # Audio Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+      # HDR Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+
+# Radarr Configuration
+radarr:
+  - base_url: http://radarr:7878
+    api_key: ${RADARR_API_KEY}
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+    quality_definition:
+      type: movie
+      preferred_ratio: 0.5
+    quality_profiles:
+      - name: HD-1080p
+        reset_unmatched_scores: true
+        upgrade_until_quality: Bluray-1080p
+        min_score: 0
+        qualities:
+          - name: Bluray-1080p
+            score: 200
+          - name: WEB 1080p
+            score: 180
+          - name: HDTV-1080p
+            score: 90
+    custom_formats:
+      # Movie Versions
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+      # Audio Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+      # HDR Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: HD-1080p
+            score: 100
+
+# Lidarr Configuration
+lidarr:
+  - base_url: http://lidarr:8686
+    api_key: ${LIDARR_API_KEY}
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+    quality_definition:
+      type: music
+      preferred_ratio: 0.5
+    quality_profiles:
+      - name: Music-Standard
+        reset_unmatched_scores: true
+        qualities:
+          - name: FLAC
+            score: 200
+          - name: MP3
+            score: 100
+    custom_formats:
+      # Audio Quality
+      - trash_ids: []
+        quality_profiles:
+          - name: Music-Standard
+            score: 100
+      # Release Types
+      - trash_ids: []
+        quality_profiles:
+          - name: Music-Standard
+            score: 100
+
+# Readarr Configuration
+readarr:
+  - base_url: http://readarr:8787
+    api_key: ${READARR_API_KEY}
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+    quality_definition:
+      type: book
+      preferred_ratio: 0.5
+    quality_profiles:
+      - name: Ebook-Standard
+        reset_unmatched_scores: true
+        qualities:
+          - name: EPUB
+            score: 200
+          - name: PDF
+            score: 100
+    custom_formats:
+      # Book Formats
+      - trash_ids: []
+        quality_profiles:
+          - name: Ebook-Standard
+            score: 100
+      # Release Types
+      - trash_ids: []
+        quality_profiles:
+          - name: Ebook-Standard
+            score: 100
+
+# Schedule Configuration
+schedule:
+  - name: sync-hourly
+    schedule: "0 * * * *"  # Every hour
+    custom_formats: true
+    quality_profiles: true
+    quality_definitions: true
+    delete_old_custom_formats: true
+EOF
+)"
+}
+
 generate_other_configs() {
     create_dir "$CONFIG_ROOT/deleterr"
     create_dir "$CONFIG_ROOT/deleterr/logs"
     create_dir "$CONFIG_ROOT/plex/transcode"
     log "BLUE" "Created Deleterr directories and logs folder"
+    generate_deleterr_config
+    generate_recyclarr_config
+    generate_calibre_config
+    log "BLUE" "Generated Recyclarr configuration"
 }
 
 # Main script execution

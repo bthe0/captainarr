@@ -40,9 +40,6 @@ QB_CATEGORY_BOOKS=books-readarr
 ```env
 # Plex
 PLEX_CLAIM=claim-xxxxx    # From plex.tv/claim
-
-# Deletion Settings
-DELETE_AFTER_SEED=false   # Auto-delete after ratio met
 ```
 
 ## Service Configurations
