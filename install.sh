@@ -158,7 +158,7 @@ if [ "$USE_DEFAULTS" = true ]; then
     
     # Copy files from __defaults__ folder
     log "BLUE" "Copying default configuration..."
-    cp -rf __defaults__/* .
+    cp -rf __defaults__/{*,.env} .
     
     # Remove any macOS-specific files if they exist
     find . -name ".DS_Store" -delete
