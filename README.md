@@ -40,6 +40,8 @@ git clone https://github.com/bthe0/captainarr.git
 cd captainarr
 ```
 
+### Option 1: Standard Installation
+
 2. Set up environment
 
 ```bash
@@ -53,7 +55,36 @@ nano .env
 ./install.sh
 ```
 
-4. Follow the [Post-Installation Setup Guide](docs/post-install.md)
+### Option 2: Quick Installation with Defaults
+
+2. Install with defaults
+
+```bash
+./install.sh --defaults
+```
+
+3. Set Plex claim token
+
+```bash
+# Get your token from https://www.plex.tv/claim
+nano .env
+```
+
+4. Start services
+
+```bash
+./captainarr.sh start
+```
+
+Default Credentials:
+- Arr Services (Radarr/Sonarr/etc): admin/admin
+- Homarr: admin/Admin123!
+- Calibre: admin/admin123
+- qBittorrent: admin/adminadmin
+
+**Important**: Change these default passwords as soon as possible after installation!
+
+Once the installation and startup are complete, check [Services](docs/services.md) for more information about accessing and configuring each service.
 
 ## 📚 Documentation
 
@@ -62,6 +93,7 @@ nano .env
   - Prerequisites
   - Installation steps
   - Initial configuration
+  - Default installation option
 
 - [Configuration Guide](docs/configuration.md)
 
