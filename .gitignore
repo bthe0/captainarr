@@ -12,6 +12,7 @@
 !/__defaults__/config/
 !/__defaults__/logs/
 !/__defaults__/backups/
+!/__defaults__/.env
 
 # OS specific files
 .DS_Store
