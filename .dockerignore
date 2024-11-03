@@ -1,0 +1,8 @@
+.git
+.gitignore
+.env
+config/
+logs/
+backups/
+*.md
+LICENSE
