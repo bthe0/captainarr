@@ -4,6 +4,8 @@ x-common: &common
   environment: &commonenv
     TZ: ${TZ:-UTC}
     UMASK: "022"
+    PUID: 1000  # Replace with your user ID (run 'id -u theo' to get it)
+    PGID: 1000  # Replace with your group ID (run 'id -g theo' to get it)
   restart: unless-stopped
   networks:
     - media_network
@@ -35,7 +37,7 @@ services:
       - traefik_data:/letsencrypt
     labels:
       - traefik.enable=true
-      - traefik.http.routers.api.rule=PathPrefix(`/`) || PathPrefix(`/api`)
+      - "traefik.http.routers.api.rule=Host(`${DOMAIN:-localhost}`) && (PathPrefix(`/`) || PathPrefix(`/api`))"
       - traefik.http.routers.api.service=api@internal
       - traefik.http.routers.api.priority=1
       - com.centurylinklabs.watchtower.scope=mediastack
@@ -207,6 +209,9 @@ services:
     <<: *common
     container_name: overseerr
     image: sctx/overseerr:latest
+    ports:
+      - 5055:5055
+      - 5055:5055/udp
     environment:
       <<: *commonenv
     volumes:
